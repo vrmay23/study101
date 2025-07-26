@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall CMakeFiles/hello_world_app.dir/hello_world.c.o -o hello_world_app

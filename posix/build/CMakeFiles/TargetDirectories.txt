@@ -1,0 +1,3 @@
+/home/vinicius/study/c_cpp/build/CMakeFiles/hello_world_app.dir
+/home/vinicius/study/c_cpp/build/CMakeFiles/edit_cache.dir
+/home/vinicius/study/c_cpp/build/CMakeFiles/rebuild_cache.dir

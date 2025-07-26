@@ -1,0 +1,51 @@
+O que é C POSIX?
+C é a linguagem.
+
+POSIX é um padrão (Portable Operating System Interface) que define APIs de sistema operacional que programas em C podem usar para serem portáveis entre UNIX, Linux, BSD, macOS e outros sistemas compatíveis.
+
+Não é uma linguagem nova. Você vai usar C normal + funções e tipos definidos pela especificação POSIX.
+
+O que é importante aprender em C POSIX?
+1. Controle de Processos
+
+fork(), exec(), wait(), exit()
+
+Criação de processos filhos, substituição de imagem de processo, espera pela finalização.
+
+2. Manipulação de Arquivos e Diretórios
+
+open(), read(), write(), close(), lseek()
+
+opendir(), readdir(), closedir()
+
+Tudo é arquivo em Unix.
+
+3. Threads (POSIX Threads - Pthreads)
+
+pthread_create(), pthread_join(), pthread_mutex_lock(), pthread_mutex_unlock()
+
+4. Comunicação entre Processos (IPC)
+
+Pipes: pipe()
+
+Sockets: socket(), bind(), connect()
+
+Shared Memory: shm_open(), mmap()
+
+Semáforos: sem_init(), sem_wait(), sem_post()
+
+5. Sinais
+
+signal(), sigaction(), kill()
+
+6. Temporização
+
+sleep(), usleep(), nanosleep()
+
+clock_gettime()
+
+7. Recursos avançados
+
+select(), poll(), epoll() (monitorar múltiplos descritores)
+
+mmap() (mapeamento de memória)

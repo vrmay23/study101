@@ -1,0 +1,27 @@
+General instructions
+
+0 - Create CMakeLists.txt
+1 - mkdir build
+2 - cd build
+3 - cmake ..
+4 - make
+5 - ./file.c
+
+
+0 - Create CMakeLists.txt
+
+##################################################################
+
+cmake_minimum_required(VERSION 3.10)
+project(C-POSIX)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
+
+add_executable(hello_world_app hello_world.c)
+
+##################################################################
+
+
+
+

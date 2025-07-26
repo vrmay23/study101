@@ -1,0 +1,4 @@
+This is another way to handle the POSIX function 'open'
+As you can see, there is no need to count manually the 
+lenght of the whole content. We just need to use strlen
+to do if for us!
