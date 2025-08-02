@@ -1,0 +1,14 @@
+Number is even
+Value is greater than 10
+Age status: Adult
+Grade: Invalid
+Feature is active
+Build mode: Release
+Logging: enabled
+Number is odd
+Value is between 1 and 10
+Age status: Minor
+Grade: Below Average
+Feature is active
+Build mode: Release
+Logging: enabled
